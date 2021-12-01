@@ -1,0 +1,218 @@
+<!doctype html>
+  <html lang="en">
+    <head>
+      
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+      <title>Olivia Anggun Permatasari</title>
+    </head>
+    <body class="bg-light">
+        
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-md-7 py-4"></div>
+              
+              <div class="col-sm-4 offset-md-1 py-4">  
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar background-purple shadow-sm" style="background-color: #16044A">
+          
+          <div class="container">
+            <a href="#" class="nav text-light">
+              <img src="./globe.png" width="40" height="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></img>
+              <h4>Gymflix</h4></a>
+              <button class="btn d-inline-flex mt-10 mt-md-0 ms-md-auto text-light"  onclick="changeColor('purple')" >Login</button>
+              <button class="btn btn-outline-light text-light"  onclick="changeColor('purple')" style="background-color:#9B51E0">Sign Up</button>
+             </div>
+        </div>
+        <!-- navbar finish -->
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 p-5" style="color: #16044A"><h1><b>Checkout</b></h1></div>
+          <div class="col-xl-4 offset-md-4 py-5"><a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+           <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+         </svg><h4 class="col btn"  onclick="changeColor('purple')" style="color: #9B51E0">Back to Class</h4></a></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <main>
+        <div class="row g-5 m-5">
+          <div class="col-md-5 col-lg-4 order-md-last" style="background-color: #16044A">
+            <div>
+            <h3 class="d-flex justify-content-between align-items-center mb-3">
+              <h2 class="text-light">Summary</h2></h3>
+            
+            <ul class="list-group mb-3"> 
+              <li class="list-group-item d-flex justify-content-between lh-sm text-light" style="background-color: #16044A;">
+               
+                   <div> 
+                     <img class="bg-dark"src="./TP.png" alt="">
+                  <span class="my-0">Typography MasterClass</span>
+                </div>
+                <span>$499</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between lh-sm text-light" style="background-color: #16044A;">
+                <div>
+                  <img class="bg-dark" src="./UX.png" alt="">
+                  <span class="my-0">Ux MasterClass</span>
+                  
+                </div>
+                <span>$599</span>
+              </li>
+              <form class="card p-2">
+            <div class="input-group" style="background-color: #16044A;">
+              <input type="text" class="form-control" placeholder="Coupon code">
+              <button type="submit" style="color: #9B51E0;" >Apply</button>
+            </div>
+          </form>
+              <li class="list-group-item d-flex justify-content-between text-light" style="background-color: #16044A;">
+                
+                  <span class="my-0">Subtotal</span>
+                  
+                
+                <span>$1098</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between text-light" style="background-color: #16044A;">
+                <span>Discount</span>
+                <span>$0</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between text-light" style="background-color: #16044A;">
+                <span>Total (USD)</span>
+                <h3>$1098</h3>
+                
+              </li>
+              <button type="submit" class=" btn btn-secondary btn-md p-2" style="background-color: #9B51E0;">CheckOut Now</button>
+            </ul>
+          </div>
+          </div>
+          <div class="col-md-7 col-lg-8">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                 Basic Informations
+                </label>
+            
+            <form class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-12">
+                  <label for="firstName" class="form-label"></label>
+                  <input type="text" class="form-control" id="firstName" placeholder="Full Name" value="" required>
+                  <div class="invalid-feedback">
+                    Valid first name is required.
+                  </div>
+                </div>
+                
+                
+                <div class="col-12">
+                  <label for="email" class="form-label"><span class="text-muted"></span></label>
+                  <input type="email" class="form-control" id="email" placeholder="Email Address">
+                  <div class="invalid-feedback">
+                    Please enter a valid email address for shipping updates.
+                  </div>
+                </div>
+    
+                <div class="col-12">
+                  <label for="address" class="form-label"></label>
+                  <input type="text" class="form-control" id="address" placeholder="Password" required>
+                  <div class="invalid-feedback">
+                    Please enter your shipping address.
+                  </div>
+                </div>
+                <span>Already have an account?<a href="#" class="py-1">
+                  <span>Login here</span></a></span>
+              
+                <div class="form-check my-4">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Payment Details
+                    </label>
+
+                    <div class="container">
+                      <div class="row my-3">
+                        <div class="col">
+                          <input id="credit" name="paymentMethod" type="checkbox" class="form-check-input col-md-3" checked required>
+                          <label class="form-check-label" for="credit">Credit card</label>
+                        </div>
+                        <div class="col order-5">
+                          <input id="paypal" name="paymentMethod" type="checkbox" class="form-check-input col-md-3" required>
+                          <label class="form-check-label" for="paypal">PayPal</label>
+                        </div>
+                        </div>
+                    </div>
+                      
+
+
+
+                    
+ 
+              <div class="row gy-3">
+                <div class="col-12">
+                  <label for="cc-name" class="form-label"></label>
+                  <input type="text" class="form-control" id="cc-name" placeholder="Name on card" required>
+                  <small class="text-muted"></small>
+                  <div class="invalid-feedback">
+                    Name on card is required
+                  </div>
+                </div>
+    
+                <div class="col-12">
+                  <label for="cc-number" class="form-label"></label>
+                  <input type="text" class="form-control" id="cc-number" placeholder="Card number" required>
+                  <div class="invalid-feedback">
+                    Credit card number is required
+                  </div>
+                </div>
+    
+                <div class="col-md-6">
+                  <label for="cc-expiration" class="form-label"></label>
+                  <input type="text" class="form-control" id="cc-expiration" placeholder="Expiration Date" required>
+                  <div class="invalid-feedback">
+                    Expiration date required
+                  </div>
+                </div>
+    
+                <div class="col-md-6">
+                  <label for="cc-cvv" class="form-label"></label>
+                  <input type="text" class="form-control" id="cc-cvv" placeholder="CVC" required>
+                  <div class="invalid-feedback">
+                    Security code required
+                  </div>
+                </div>
+              </div>
+             
+            </form>
+          </div>
+        </div>
+      </main>
+    
+      <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2017–2021 oliivia Name</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacy</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+      </footer>
+    </div>
+
+        </div>
+      </div>
+      </div>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+      
+    
+  </html>
+</body>
+</html>
